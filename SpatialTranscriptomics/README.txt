@@ -5,7 +5,7 @@ Analysis steps are split into numbered folders.
 
 
 1_sample_QC
-- xianjun_qc_all_data_01272022.R: Flag sample outliers for removal by aggregating per-sample count matrices and clustering.
+- st_sample_qc_01272022.R: Flag sample outliers for removal by aggregating per-sample count matrices and clustering.
 - post_qc_all_data_to_seurat_10162023.R: Combine all sample count matrices and metadata into a single Seurat object.
 
 2_clustering_pipeline
